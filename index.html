@@ -7,26 +7,29 @@
 
 </head>
 <body>
-
-
+<script src="App.js"></script>
 <div class="page-container-1">
  
   
   <div class="nav1-container">
     <div class="nav1">
       <ul>
-        <li><a href="#">About-Us</a></li>
-        <li><a href="#">Feedback</a></li>
-        <li><a href="#">Accessbility</a></li>
-        <li><a href="#">Contact-Us</a></li>
+        <li><a onclick="myFunction3()">About-Us</a></li>
+        <li><a onclick="myFunction3()">Feedback</a></li>
+        <li><a onclick="myFunction3()">Accessbility</a></li>
+        <li><a onclick="myFunction3()">Contact-Us</a></li>
       </ul>
     </div>
   </div>
  
-  <div><img class="img-header" src="img/Indianbanner.png" alt=""/></div>
+  <div><a target="_blank" href="https://innovateindia.mygov.in/ppc-2023"><img class="img-header" src="img/Indianbanner.png" alt="" usemap="Click" ></a>
+ 
+  
+  
+  </div>
   <div class="nav2">
     <ul>
-      <li><a href="#" class="selected">Home</a></li>
+      <li><a href="" class="selected">Home</a></li>
     </ul>
     <marquee>The Federal Board of Revenue (FBR) has extended the date for filing income tax returns for the third time till December 15.
 
@@ -42,8 +45,8 @@
       <div class="login">
           <input type="text" placeholder="Username" id="username"> <br>
         <input type="password" placeholder="password" id="password"> <br>
-        <input type="submit" value="Sign In"> <br>
-        <a href="#" class="forgot">Don't have a Account?,Sign up here</a>
+        <input onclick="myFunction()" type="submit" value="Sign In"> <br>
+        <a href="signin.html" class="forgot">Don't have a Account?,Sign up here</a>
       </div>
       <div class="shadow"></div>
     </ul>
@@ -66,7 +69,7 @@
         <p class="content-subtitle-noshade-size1">ITR Filing Last Date FY 2021-22 (AY 2022-23)</p>
         <div class="content-txtbox-noshade">
           <p>You must understand that the return you are filing currently is for the income you earned in FY 2021-22,i.e. for the income earned between 1 April 2021 and 31 March 2022. The assessment year will be the year in which you file your returns and declare the income for tax assessment. For the income earned during the FY ( here FY 2021-22), the assessment year would be the immediate next year, i.e. 1st April 2022 to 31st March 2023. Hence, the assessment year would be AY 2022-23.</p>
-          <p class="readmore">| Oct 19, 2022 | <a href="https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-income-tax-return">Read more</a></p>
+          <p class="readmore">| Oct 19, 2022 | <a target="_blank" href="https://cleartax.in/s/due-date-tax-filing">Read more</a></p>
         </div>
       </div>
     </div>
@@ -108,20 +111,20 @@
     <h3 class="title">Important Links</h3>
         <div id="hpage_quicklinks">
           <ul class="clear">
-            <li><a href="#">Instant E-PAN</a></li> <br>
-            <li><a href="#">Link Aadhaar</a></li> <br>
-            <li><a href="#">Submit Forms</a></li> <br>
-            <li><a href="#">ITR Status</a></li> <br>
+            <li><a href="instantpan.html">Instant E-PAN</a></li> <br>
+            <li><a href="panlink.html">Link Aadhaar</a></li> <br>
+            <!-- <li><a href="#">Submit Forms</a></li> <br> -->
+            <!-- <li><a href="#">ITR Status</a></li> <br> -->
           </ul>
         </div>
     <p class="sidebar-title-noshade"></p>
     <h3 class="title">FAQ</h3>
         <div id="hpage_quicklinks">
           <ul class="clear">
-            <li><a href="#">General FAQs</a></li> <br>
-            <li><a href="#">FAQs for Senior Citizen's</a></li> <br>
-            <li><a href="#">FAQs on filing the return</a></li> <br>
-            <li><a href="#">FAQs on Tax Deducted</a></li>
+            <li><a href="FAQ.html">General FAQs</a></li> <br>
+            <li><a href="Finalfile.html">Forms for Senior Citizen's</a></li> <br>
+            <li><a href="Senior.html">FAQs on filing the return</a></li> <br>
+            <!-- <li><a href="#">FAQs on Tax Deducted</a></li> -->
           </ul>
         </div>
     <p class="sidebar-title-noshade">HeadQuarters</p>
@@ -135,7 +138,7 @@
   </div>
   <div class="footer">
     <p><b>  Website Built by <a href="#"></a>Mayank Gahlot,Aditya Bhadauria and Samaira Katoch</b></p>
-    <p><a href="#">"Click here to know more"</a></p>
+    <!-- <p><a href="#">"Click here to know more"</a></p> -->
   </div>
 </div>
 </body>
