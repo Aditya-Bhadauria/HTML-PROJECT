@@ -15,9 +15,19 @@ function myFunction() {
     }
   
   function myFunction3() {
-    if(confirm("Do you want to Know about the developers") ==true){
-      window.open('https://www.linkedin.com/in/adityabhadauria/','_blank')
-      window.open('https://www.linkedin.com/in/mayank-gahlot/','_blank')
+    if(confirm("Do you want to access the code behind website?") ==true){
+      window.open('https://github.com/Aditya-Bhadauria  ','_blank')
+      
         
     }
   }
+  function myFunction4() {
+    alert("we are a team of students who were tasked to create this website 1)Aditya Bhadauria(12208458) \n 2)Mayank Gahlot(12211318) \n 3)Samaira Katoch(12210856)")
+  }
+  function myFunction5() {
+    alert("All the feedback must be submitted to github,Click on accessibility to access the github profile")
+  }
+  function myFunction6() {
+    alert("All the information about the devs can be found on their respective 'Linkdin profiles'")
+  }
+  
